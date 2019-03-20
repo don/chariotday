@@ -54,7 +54,7 @@ The MKR1000 needs the root certifcates for any websites accessed via SSL. There 
 1. Open the Firmware Updater _Tools -> WiFi101 / WiFiNINA Firmware Updater_
 1. Select the port of your MKR1000 in section 1
 1. Click the "Add Domain" button in section 3
-1. Enter "iotwork.shop" and press the OK button
+1. Enter "chariotday.com" and press the OK button
 1. Press the "Upload Certificates to WiFi module" button
 1. Wait for the success message
 

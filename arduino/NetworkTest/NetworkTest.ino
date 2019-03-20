@@ -18,7 +18,7 @@ char ssid[] = SECRET_SSID;    // your network SSID (name)
 char pass[] = SECRET_PASS;    // your network password (use for WPA, or use as key for WEP)
 
 int status = WL_IDLE_STATUS;
-char server[] = "iotwork.shop";   
+char server[] = "chariotday.com";   
 
 // Initialize the Ethernet client library
 WiFiSSLClient client;
@@ -59,7 +59,7 @@ void setup() {
     Serial.println("connected to server");
     // Make a HTTP request:
     client.println("GET /test.html HTTP/1.1");
-    client.println("Host: iotwork.shop");
+    client.println("Host: chariotday.com");
     client.println("Connection: close");
     client.println();
   }

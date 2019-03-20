@@ -1,5 +1,5 @@
 let client;
-let broker = 'wss://mqtt.iotwork.shop:8083';
+let broker = 'wss://mqtt.chariotday.com:8083';
 
 function connect() {
   console.log('Connecting');
