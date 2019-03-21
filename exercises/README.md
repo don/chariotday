@@ -1,5 +1,6 @@
 # Exercises
 
+* [Intro](intro.md)
 * [Exercise 1: Development Environment](exercise1.md)
 * [Exercise 2: Assemble the Hardware](exercise2.md)
 * [Exercise 3: Sending data using MQTT](exercise3.md)
