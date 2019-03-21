@@ -1,5 +1,5 @@
 // IoT Workshop
-// Send temperature and humidity data to MQTT
+// Send temperature and humidity data with MQTT
 //
 // Uses WiFi101 https://www.arduino.cc/en/Reference/WiFi101 (MKR1000)
 // Uses WiFiNINA https://www.arduino.cc/en/Reference/WiFiNINA (MKR WiFi 1010)
@@ -24,8 +24,8 @@ MqttClient mqtt(net);
 
 // Temperature and Humidity Sensor
 #include <DHT.h>
-#define DHTTYPE DHT22
-#define DHTPIN  7
+#define DHTTYPE DHT11
+#define DHTPIN  2
 DHT dht(DHTPIN, DHTTYPE);
 
 String temperatureTopic = "itp/" + DEVICE_ID + "/temperature";
