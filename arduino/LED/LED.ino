@@ -15,7 +15,7 @@
 WiFiSSLClient net;
 MqttClient mqtt(net);
 
-String ledTopic = "itp/" + DEVICE_ID + "/led";
+String ledTopic = "workshop/" + DEVICE_ID + "/led";
 
 int status = WL_IDLE_STATUS;
 
@@ -59,16 +59,6 @@ void connectWiFi() {
   Serial.print("WiFi firmware version ");
   Serial.println(WiFi.firmwareVersion());
   
-//  // attempt to connect to WiFi network
-//  while (status != WL_CONNECTED) {
-//    Serial.print("Attempting to connect to SSID: ");
-//    Serial.println(WIFI_SSID);
-//    status = WiFi.begin(WIFI_SSID, WIFI_PASSWORD);
-//
-//    // wait 3 seconds for connection
-//    delay(3000);
-//  }
-
   Serial.print("Attempting to connect to SSID: ");
   Serial.print(WIFI_SSID);
   Serial.print(" ");

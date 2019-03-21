@@ -28,8 +28,8 @@ MqttClient mqtt(net);
 #define DHTPIN  2
 DHT dht(DHTPIN, DHTTYPE);
 
-String temperatureTopic = "itp/" + DEVICE_ID + "/temperature";
-String humidityTopic = "itp/" + DEVICE_ID + "/humidity";
+String temperatureTopic = "workshop/" + DEVICE_ID + "/temperature";
+String humidityTopic = "workshop/" + DEVICE_ID + "/humidity";
 
 // Publish every 10 seconds for the workshop. Real world apps need this data every 5 or 10 minutes.
 unsigned long publishInterval = 10 * 1000;

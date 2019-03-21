@@ -24,13 +24,13 @@ MqttClient mqtt(net);
 
 // Temperature and Humidity Sensor
 #include <DHT.h>
-#define DHTTYPE DHT22
-#define DHTPIN  7
+#define DHTTYPE DHT11
+#define DHTPIN  2
 DHT dht(DHTPIN, DHTTYPE);
 
-String temperatureTopic = "itp/" + DEVICE_ID + "/temperature";
-String humidityTopic = "itp/" + DEVICE_ID + "/humidity";
-String ledTopic = "itp/" + DEVICE_ID + "/led";
+String temperatureTopic = "workshop/" + DEVICE_ID + "/temperature";
+String humidityTopic = "workshop/" + DEVICE_ID + "/humidity";
+String ledTopic = "workshop/" + DEVICE_ID + "/led";
 
 // Publish every 10 seconds for the workshop. Real world apps need this data every 5 or 10 minutes.
 unsigned long publishInterval = 10 * 1000;

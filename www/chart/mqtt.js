@@ -19,8 +19,8 @@ function connect() {
     connectButton.hidden = true;
     disconnectButton.hidden = false;
     document.querySelectorAll('input[type=text],input[type=password]').forEach(e => e.disabled = true);
-    client.subscribe(`itp/${deviceId.value}/temperature`);
-    client.subscribe(`itp/${deviceId.value}/humidity`);
+    client.subscribe(`workshop/${deviceId.value}/temperature`);
+    client.subscribe(`workshop/${deviceId.value}/humidity`);
   });
 
   client.on('message', function (topic, message) {
