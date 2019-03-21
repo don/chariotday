@@ -12,9 +12,9 @@ client.on('connect', function () {
   client.subscribe("\#");
   // + is the wildcard to match part of a topic
   // get temperature for workshop devices
-  //client.subscribe("itp/+/temperature");
+  //client.subscribe("workshop/+/temperature");
   // get all messages for device1
-  //client.subscribe("itp/device_xx/+");
+  //client.subscribe("workshop/device_xx/+");
 });
 
 client.on('message', function (topic, message) {

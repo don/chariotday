@@ -7,6 +7,6 @@ var client  = mqtt.connect(config.server, {
 });
 
 client.on('connect', function () {
-  client.publish(`itp/${config.device}/led`, 'ON');
+  client.publish(`workshop/${config.device}/led`, 'ON');
   client.end();
 });

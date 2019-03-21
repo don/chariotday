@@ -11,11 +11,11 @@ client.on('connect', function () {
 });
 
 function on() {
-  client.publish(`itp/${config.device}/led`, 'ON');
+  client.publish(`workshop/${config.device}/led`, 'ON');
   setTimeout(off, 1000);
 }
 
 function off() {
-  client.publish(`itp/${config.device}/led`, 'OFF');
+  client.publish(`workshop/${config.device}/led`, 'OFF');
   setTimeout(on, 1000);
 }
