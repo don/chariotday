@@ -2,12 +2,7 @@
 // Control a LED via MQTT
 
 #include <SPI.h>
-#ifdef ARDUINO_SAMD_MKR1000
-#include <WiFi101.h>
-#define WL_NO_MODULE WL_NO_SHIELD 
-#else
 #include <WiFiNINA.h>
-#endif
 #include <ArduinoMqttClient.h>
 
 #include "config.h"

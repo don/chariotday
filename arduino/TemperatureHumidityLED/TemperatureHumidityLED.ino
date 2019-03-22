@@ -1,7 +1,6 @@
 // IoT Workshop
 // Send temperature and humidity data to MQTT
 //
-// Uses WiFi101 https://www.arduino.cc/en/Reference/WiFi101 (MKR1000)
 // Uses WiFiNINA https://www.arduino.cc/en/Reference/WiFiNINA (MKR WiFi 1010)
 // Arduino MQTT Client Library https://github.com/arduino-libraries/ArduinoMqttClient
 // Adafruit DHT Sensor Library https://github.com/adafruit/DHT-sensor-library
@@ -9,12 +8,7 @@
 //
 
 #include <SPI.h>
-#ifdef ARDUINO_SAMD_MKR1000
-#include <WiFi101.h>
-#define WL_NO_MODULE WL_NO_SHIELD 
-#else
 #include <WiFiNINA.h>
-#endif
 #include <ArduinoMqttClient.h>
 
 #include "config.h"
