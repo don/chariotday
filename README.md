@@ -4,7 +4,6 @@ Build your own IoT Device. You'll learn how to wire hardware and write firmware 
 
 Presented by Don Coleman &amp; Rod Biresch
 
-
 ## Exercises
 
 * [Intro](exercises/intro.md)
@@ -17,7 +16,7 @@ Presented by Don Coleman &amp; Rod Biresch
 * [Exercise 7: Connecting using X.509 certs](exercises/exercise7.md)
 * [Exercise 8: Running the Prototype](exercises/exercise8.md)
 
-This workshop is based on content from previous workshops for [Hackaday Superconference 18](https://github.com/don/superconf-iot-workshop), [Philly .NET Code Camp 18.2](https://github.com/don/phillycodecamp), [IoT DevFest 2019](https://github.com/don/iotdevfest), and [NYU ITP](https://github.com/don/ITP-DeviceToDatabase/tree/master/02_Arduino_MQTT).
+This workshop is based on content from previous workshops for [Hackaday Superconference 18](https://github.com/don/superconf-iot-workshop), [Philly .NET Code Camp 18.2](https://github.com/don/phillycodecamp), and [IoT DevFest 2019](https://github.com/don/iotdevfest).
 
 <!--
 <a href="https://chariotsolutions.com"><img src="exercises/images/ChariotSolutions.png" alt="Chariot Solutions Logo" width=30%></a>
