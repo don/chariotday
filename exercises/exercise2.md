@@ -21,7 +21,7 @@ Suggested wiring instructions:
    * Use a red wire from the positive rail to F32.
    * Put a 10,000 &#937; resistor (brown, black, orange, gold) from the positive rail to F33.
    * Place a black wire from the negative rail to F35. Use F34 if your DHT-11 has 3 pins.
-   * Run a green wire from G33 to G53 which is pin 2 on the Arduino.
+   * Run a green wire from G33 to J53 which is pin 2 on the Arduino.
 1. Place a button into E25, E27, F25, and F27 on the breadboard.
    * Use a red wire from the positive rail to A25.
    * Use a yellow wire from G27 to J50 which is pin 5 on the Arduino.
