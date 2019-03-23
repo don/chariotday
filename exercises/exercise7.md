@@ -31,7 +31,7 @@ Now that we have a CSR, we need to create a device in AWS IoT and get a certific
 
 Next, we add the generated certificate to our Arduino code. The ArduinoBearSSL library uses the certificate and private key to authenticate with the AWS server in place of a username and password.
 
-1. Open arduino/AWS/AWS.ino in the Arudino IDE.
+1. Open arduino/SmartToilet/SmartToilet.ino in the Arudino IDE.
 1. Switch to the config.h tab
 1. Update the wifi SSID and password
 1. Copy the broker URL from registration form and paste it into config.h
